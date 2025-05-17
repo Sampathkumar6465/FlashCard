@@ -1,21 +1,30 @@
-# FlashCard Backend API
+# Flashcard App 📚
 
-## Description
-Backend API for Smart Flashcard system built with FastAPI and MySQL.
+A simple flashcard app built using FastAPI, SQLAlchemy, and MySQL.
 
-## Setup
+## 🚀 Requirements
 
-1. Clone the repo:
+- Python 3.8+
+- MySQL Server running
+- pip install -r requirements.txt
 
-2. Install dependencies:
-   
-3. Update database config in `app/database.py`.
+Setup Instructions
 
-4. Create tables:
-5.  Run the API:
-6. Visit:
+ Clone the repository:
+
+
+Install dependencies:
+pip install -r requirements.txt
+Edit app/database.py with your MySQL credentials if needed.
+
+Create the database in MySQL:
+CREATE DATABASE flashcard_db;
+
+Run the table creation script:
+python create_tables.py
+
+Start the server:
+uvicorn app.main:app --reload
+
+Open in browser:
 http://127.0.0.1:8000
-
-git add README.md
-git commit -m "Add README with setup instructions"
-git push
