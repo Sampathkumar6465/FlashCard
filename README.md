@@ -16,9 +16,6 @@ Backend API for Smart Flashcard system built with FastAPI and MySQL.
 6. Visit:
 http://127.0.0.1:8000
 
-## Notes
-- Make sure MySQL is running.
-- Update DB credentials if needed.
 git add README.md
 git commit -m "Add README with setup instructions"
 git push
